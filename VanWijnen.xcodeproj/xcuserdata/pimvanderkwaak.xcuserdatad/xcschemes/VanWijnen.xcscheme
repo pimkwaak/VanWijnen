@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,6 +17,20 @@
                BlueprintIdentifier = "0A9FE23A1945C91200CC033E"
                BuildableName = "VanWijnen.app"
                BlueprintName = "VanWijnen"
+               ReferencedContainer = "container:VanWijnen.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0A9FE25E1945C91300CC033E"
+               BuildableName = "VanWijnenTests.xctest"
+               BlueprintName = "VanWijnenTests"
                ReferencedContainer = "container:VanWijnen.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

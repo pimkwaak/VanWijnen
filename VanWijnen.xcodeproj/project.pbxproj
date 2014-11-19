@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A59BF6319C02B2A004B0937 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A59BF6219C02B2A004B0937 /* KeychainItemWrapper.m */; };
+		0A82322019516D9D00E6D0C7 /* 4TSL5JHV9L_SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A82321F19516D9D00E6D0C7 /* 4TSL5JHV9L_SettingViewController.m */; };
+		0A82322219517B0F00E6D0C7 /* VanWijnen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A82322119517B0E00E6D0C7 /* VanWijnen.jpg */; };
+		0A82322419517C1D00E6D0C7 /* cached.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A82322319517C1D00E6D0C7 /* cached.jpg */; };
+		0A82322719517E9700E6D0C7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A82322619517E9700E6D0C7 /* LoginViewController.m */; };
 		0A9FE23F1945C91200CC033E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9FE23E1945C91200CC033E /* Foundation.framework */; };
 		0A9FE2411945C91200CC033E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9FE2401945C91200CC033E /* CoreGraphics.framework */; };
 		0A9FE2431945C91300CC033E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9FE2421945C91300CC033E /* UIKit.framework */; };
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A59BF6119C02B2A004B0937 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		0A59BF6219C02B2A004B0937 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		0A82321E19516D9D00E6D0C7 /* 4TSL5JHV9L_SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 4TSL5JHV9L_SettingViewController.h; sourceTree = "<group>"; };
+		0A82321F19516D9D00E6D0C7 /* 4TSL5JHV9L_SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 4TSL5JHV9L_SettingViewController.m; sourceTree = "<group>"; };
+		0A82322119517B0E00E6D0C7 /* VanWijnen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VanWijnen.jpg; sourceTree = "<group>"; };
+		0A82322319517C1D00E6D0C7 /* cached.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cached.jpg; sourceTree = "<group>"; };
+		0A82322519517E9700E6D0C7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0A82322619517E9700E6D0C7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		0A9FE23B1945C91200CC033E /* VanWijnen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VanWijnen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9FE23E1945C91200CC033E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0A9FE2401945C91200CC033E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,9 +133,17 @@
 				0A9FE2501945C91300CC033E /* Main.storyboard */,
 				0A9FE2531945C91300CC033E /* _TSL5JHV9LMasterViewController.h */,
 				0A9FE2541945C91300CC033E /* _TSL5JHV9LMasterViewController.m */,
+				0A82321E19516D9D00E6D0C7 /* 4TSL5JHV9L_SettingViewController.h */,
+				0A82321F19516D9D00E6D0C7 /* 4TSL5JHV9L_SettingViewController.m */,
 				0A9FE2561945C91300CC033E /* _TSL5JHV9LDetailViewController.h */,
 				0A9FE2571945C91300CC033E /* _TSL5JHV9LDetailViewController.m */,
+				0A59BF6119C02B2A004B0937 /* KeychainItemWrapper.h */,
+				0A59BF6219C02B2A004B0937 /* KeychainItemWrapper.m */,
+				0A82322519517E9700E6D0C7 /* LoginViewController.h */,
+				0A82322619517E9700E6D0C7 /* LoginViewController.m */,
+				0A82322319517C1D00E6D0C7 /* cached.jpg */,
 				0A9FE2591945C91300CC033E /* Images.xcassets */,
+				0A82322119517B0E00E6D0C7 /* VanWijnen.jpg */,
 				0A9FE2451945C91300CC033E /* Supporting Files */,
 			);
 			path = VanWijnen;
@@ -205,6 +226,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Pim van der Kwaak";
 				TargetAttributes = {
+					0A9FE23A1945C91200CC033E = {
+						DevelopmentTeam = 4TSL5JHV9L;
+					};
 					0A9FE25E1945C91300CC033E = {
 						TestTargetID = 0A9FE23A1945C91200CC033E;
 					};
@@ -234,8 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A82322219517B0F00E6D0C7 /* VanWijnen.jpg in Resources */,
 				0A9FE25A1945C91300CC033E /* Images.xcassets in Resources */,
 				0A9FE2491945C91300CC033E /* InfoPlist.strings in Resources */,
+				0A82322419517C1D00E6D0C7 /* cached.jpg in Resources */,
 				0A9FE2521945C91300CC033E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +283,11 @@
 			files = (
 				0A9FE2551945C91300CC033E /* _TSL5JHV9LMasterViewController.m in Sources */,
 				0A9FE24F1945C91300CC033E /* _TSL5JHV9LAppDelegate.m in Sources */,
+				0A82322719517E9700E6D0C7 /* LoginViewController.m in Sources */,
 				0A9FE2581945C91300CC033E /* _TSL5JHV9LDetailViewController.m in Sources */,
+				0A82322019516D9D00E6D0C7 /* 4TSL5JHV9L_SettingViewController.m in Sources */,
 				0A9FE24B1945C91300CC033E /* main.m in Sources */,
+				0A59BF6319C02B2A004B0937 /* KeychainItemWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,10 +412,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pim van der Kwaak (G8BR94F686)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pim van der Kwaak (G8BR94F686)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VanWijnen/VanWijnen-Prefix.pch";
 				INFOPLIST_FILE = "VanWijnen/VanWijnen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,10 +429,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pim van der Kwaak (G8BR94F686)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pim van der Kwaak (G8BR94F686)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VanWijnen/VanWijnen-Prefix.pch";
 				INFOPLIST_FILE = "VanWijnen/VanWijnen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,6 +500,7 @@
 				0A9FE2721945C91300CC033E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A9FE2731945C91300CC033E /* Build configuration list for PBXNativeTarget "VanWijnenTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +509,7 @@
 				0A9FE2751945C91300CC033E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

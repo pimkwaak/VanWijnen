@@ -8,9 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface _TSL5JHV9LDetailViewController : UIViewController
+@interface _TSL5JHV9LDetailViewController : UIViewController <UIScrollViewDelegate, UITextFieldDelegate>
 
 @property (strong, nonatomic) id detailItem;
+@property (weak, nonatomic) NSString *detailTitleText;
+@property (weak, nonatomic) NSString *detailMessageText;
+@property (weak, nonatomic) NSString *detailImageSource;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (weak, nonatomic) IBOutlet UILabel *detailTitle;
+@property (weak, nonatomic) IBOutlet UITextView *detailMessage;
+@property (weak, nonatomic) IBOutlet UIImageView *detailImage;
+@property (weak, nonatomic) IBOutlet UIView *detaillView;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
+
 @end
